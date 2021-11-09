@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: limegreen;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+}
+
+.teams-container {
+    margin-block: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 110px);
+    justify-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: darkorange;
+    width: 110px;
+    height: 30px;
+    color: black;
+    text-decoration: none;
+    padding-inline-start: 0.5rem;
+}
+
+.matches {
+    text-align: center;
+    background-color: lightgreen;
+}
+
+h2:first-of-type {
+    margin-block-start: 0;
+}
+
+p:first-of-type {
+    margin-block-start: 0;
+}
